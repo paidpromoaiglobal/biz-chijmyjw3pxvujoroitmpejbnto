@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#8B1A4A">
+<title>Ghoonghat | Lehengas &amp; Ghagra Cholis in Sowcarpet, Chennai</title>
+<meta name="description" content="Shop stunning lehengas, ghagra cholis, and ethnic wear at Ghoonghat on Mint Street, Sowcarpet, Chennai. Affordable prices, beautiful designs, and warm service. Visit us today!">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;color:#1a1209;background:#fdfcf7;-webkit-font-smoothing:antialiased}
+.wa-float{position:fixed;bottom:24px;right:24px;z-index:9999;background:#25d366;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(37,211,102,0.45);text-decoration:none;transition:transform .2s}.wa-float:hover{transform:scale(1.1)}
+nav{position:fixed;top:0;left:0;right:0;z-index:900;background:rgba(253,252,247,.96);backdrop-filter:blur(12px);border-bottom:1px solid #ede0c4;padding:0 5vw;display:flex;align-items:center;justify-content:space-between;height:62px}
+.nav-brand{font-family:'Cormorant Garamond',serif;font-size:1.25rem;font-weight:600;color:#8B1A4A;letter-spacing:.04em}
+.nav-cta{background:#D4AF37;color:#fff;padding:9px 22px;border-radius:2px;text-decoration:none;font-size:.82rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase}
+/* HERO */
+.hero{position:relative;height:100svh;min-height:600px;display:flex;align-items:center;overflow:hidden}
+.hero-bg{position:absolute;inset:-15%;width:130%;height:130%;background-image:url('https://images.unsplash.com/photo-1602173574767-37ac01994b2a?w=1600&q=85&fit=crop&auto=format');background-size:cover;background-position:center;will-change:transform}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(to right,rgba(10,6,0,.88) 0%,rgba(10,6,0,.5) 55%,rgba(10,6,0,.15) 100%)}
+.hero-content{position:relative;z-index:2;padding:0 5vw;max-width:600px;color:#fff}
+.hero-eyebrow{font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:#D4AF37;margin-bottom:20px;font-weight:500}
+.hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2.2rem,5.5vw,3.8rem);font-weight:700;line-height:1.18;margin-bottom:18px;letter-spacing:-.01em}
+.hero p{font-size:clamp(.9rem,2vw,1.05rem);opacity:.82;line-height:1.75;margin-bottom:30px;max-width:460px}
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn-gold{background:#D4AF37;color:#fff;padding:14px 32px;text-decoration:none;font-weight:600;font-size:.88rem;letter-spacing:.08em;text-transform:uppercase;border-radius:2px}
+.btn-ghost{background:transparent;border:1px solid rgba(255,255,255,.45);color:#fff;padding:13px 28px;text-decoration:none;font-size:.88rem;letter-spacing:.06em;text-transform:uppercase;border-radius:2px}
+/* TRUST */
+.trust-bar{background:#8B1A4A;display:grid;grid-template-columns:repeat(2,1fr)}
+@media(min-width:640px){.trust-bar{grid-template-columns:repeat(4,1fr)}}
+.trust-item{padding:20px 16px;text-align:center;border-right:1px solid rgba(255,255,255,.08)}
+.trust-item:last-child{border:none}
+.trust-num{font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:700;color:#D4AF37;line-height:1}
+.trust-lbl{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.5);margin-top:4px}
+/* ABOUT */
+section{padding:64px 5vw}
+.container{max-width:1000px;margin:0 auto}
+.sec-label{font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:#D4AF37;margin-bottom:8px}
+.about-grid{display:grid;grid-template-columns:1fr;gap:40px}
+@media(min-width:768px){.about-grid{grid-template-columns:1fr 1fr;align-items:center}}
+.about-img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:2px}
+.about-text h2{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw,2.5rem);color:#8B1A4A;margin-bottom:18px}
+.about-text p{color:#5a4a30;line-height:1.85;margin-bottom:14px;font-size:.93rem}
+.hl-list{list-style:none;margin-top:18px;border-top:1px solid #ede0c4}
+.hl-list li{padding:9px 0 9px 22px;position:relative;color:#5a4a30;font-size:.87rem;border-bottom:1px solid #ede0c4}
+.hl-list li:before{content:'◆';color:#D4AF37;position:absolute;left:0;font-size:.55rem;top:12px}
+/* COLLECTION */
+.collection-bg{background:#f9f5ec}
+.catalog-grid{display:grid;grid-template-columns:1fr;gap:16px;margin-top:36px}
+@media(min-width:480px){.catalog-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:900px){.catalog-grid{grid-template-columns:repeat(3,1fr)}}
+.cat-card{background:#fff;border:1px solid #ede0c4;border-radius:2px;padding:26px;transition:box-shadow .2s}
+.cat-card:hover{box-shadow:0 6px 24px rgba(0,0,0,.1)}
+.cat-card h3{font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:#8B1A4A;margin-bottom:8px}
+.cat-card p{color:#7a6040;font-size:.87rem;line-height:1.65}
+/* PARALLAX */
+.parallax-strip{position:relative;min-height:340px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.pstrip-bg{position:absolute;inset:-20%;width:140%;height:140%;background-image:url('https://images.unsplash.com/photo-1573408301185-9519f94cfe68?w=1200&q=80&fit=crop&auto=format');background-size:cover;background-position:center;will-change:transform}
+.pstrip-overlay{position:absolute;inset:0;background:rgba(10,6,0,.72)}
+.pstrip-content{position:relative;z-index:2;text-align:center;color:#fff;padding:48px 5vw;max-width:600px}
+.pstrip-content h2{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw,2.5rem);margin-bottom:14px}
+.pstrip-content p{opacity:.75;margin-bottom:28px;font-size:.95rem}
+/* GALLERY */
+.gallery-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+@media(min-width:600px){.gallery-grid{grid-template-columns:repeat(3,1fr)}}
+.gallery-grid img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:2px;transition:opacity .3s}
+.gallery-grid img:hover{opacity:.85}
+/* REVIEWS */
+.reviews-bg{background:#1a1209;color:#fff}
+.rv-grid{display:grid;grid-template-columns:1fr;gap:16px;margin-top:32px}
+@media(min-width:640px){.rv-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:900px){.rv-grid{grid-template-columns:repeat(3,1fr)}}
+.rv-card{border:1px solid rgba(255,255,255,.08);padding:24px;border-radius:2px;position:relative}
+.rv-card:before{content:'"';position:absolute;top:-6px;left:16px;font-size:3.5rem;color:#D4AF37;opacity:.25;font-family:'Cormorant Garamond',serif;line-height:1}
+.rv-stars{color:#D4AF37;margin-bottom:10px}
+.rv-text{color:rgba(255,255,255,.65);font-size:.9rem;line-height:1.7;font-style:italic;margin-bottom:14px}
+.rv-author{color:rgba(255,255,255,.4);font-size:.82rem;font-weight:600;letter-spacing:.04em}
+/* CTA */
+.cta-section{background:#8B1A4A;color:#fff;text-align:center;padding:64px 5vw}
+.cta-section h2{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw,2.5rem);margin-bottom:14px}
+.cta-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:28px}
+footer{background:#0a0600;color:#7a6040;text-align:center;padding:22px;font-size:.78rem;letter-spacing:.03em}
+</style>
+</head>
+<body>
+<nav>
+  <span class="nav-brand">Ghoonghat</span>
+  <a href="https://wa.me/919445126161?text=Hi!%20I%20visited%20the%20Ghoonghat%20website%20and%20I'm%20interested%20in%20your%20ethnic%20wear%20collection.%20Could%20you%20please%20share%20more%20details%20about%20available%20designs%20and%20pricing%3F" class="nav-cta">Enquire Now</a>
+</nav>
+<div class="hero">
+  <div class="hero-bg" id="hp"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Tamil Nadu 600001, India</div>
+    <h1>Dress Your Dreams in Every Thread</h1>
+    <p>Explore stunning lehengas, ghagra cholis, and ethnic wear at prices that make every celebration special.</p>
+    <div class="hero-btns">
+      <a href="https://wa.me/919445126161?text=Hi!%20I%20visited%20the%20Ghoonghat%20website%20and%20I'm%20interested%20in%20your%20ethnic%20wear%20collection.%20Could%20you%20please%20share%20more%20details%20about%20available%20designs%20and%20pricing%3F" class="btn-gold">Explore Our Collection</a>
+      <a href="tel:094451 26161" class="btn-ghost">📞 Call Us</a>
+    </div>
+  </div>
+</div>
+<div class="trust-bar">
+  <div class="trust-item"><div class="trust-num">4.6/5</div><div class="trust-lbl">Rating</div></div>
+  <div class="trust-item"><div class="trust-num">✓</div><div class="trust-lbl">Verified</div></div>
+  <div class="trust-item"><div class="trust-num">100%</div><div class="trust-lbl">Authentic</div></div>
+  <div class="trust-item"><div class="trust-num">BIS</div><div class="trust-lbl">Certified</div></div>
+</div>
+<section>
+  <div class="container">
+    <div class="about-grid">
+      <img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEE_vHuAOg6Pz_8I0RmFFQh9uMWkaP-Rh2k8AE-yyOJrh16mccQrhMaJlzoESvA5QuRsATnYo0tFojDGrttObRhVq9-C1r9cAcSnyNBW94gnxTP7sRnO62zok5kDJFQCGQTEwFbO4FCCd83A3k7z655N3sDM4OVyXVBDL9nT6YB6t4goHcHKzYh2JMu_xz2TdNPb8GXhJfsG9ml4vVXLs0kFZ-qE-5siZnuYjjXrxGOnIqsF97IaFxnJzlnyw2kVGZFetfqIzEPCCOjd78K3B-P8sl0NCs8kxwW_CPCINV1iuw&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="Ghoonghat" class="about-img" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1602173574767-37ac01994b2a?w=1600&q=85&fit=crop&auto=format'">
+      <div class="about-text">
+        <p class="sec-label">Our Legacy</p>
+        <h2>Ghoonghat</h2>
+        <p>Ghoonghat is a beloved ethnic wear destination nestled in the heart of Sowcarpet, George Town, Chennai — one of the city's most vibrant shopping hubs. Specialising in ghagra cholis, lehengas, and a wide range of traditional Indian clothing, Ghoonghat has earned the trust of customers with its beautiful designs, quality fabrics, and budget-friendly pricing. With a rating of 4.6 out of 5, the store stands as a go-to choice for women seeking stunning outfits for weddings, festivals, and every special occasion.</p><p>Located on iconic Mint Street near Chandra Prabhu Jain Naya Mandir and adjacent to Amrit Hospital, Ghoonghat is easy to find and a pleasure to visit. The team prides itself on warm, customer-friendly service that makes every shopper feel welcome. Whether you are searching for the perfect bridal ensemble or a festive ethnic outfit, Ghoonghat offers an extensive collection that caters to varied tastes and budgets — all under one roof.</p>
+        <ul class="hl-list"><li>Rated 4.6/5 by happy customers for quality, design, and affordability</li><li>Wide collection of ghagra cholis, lehengas, and ethnic wear under one roof</li><li>Budget-friendly pricing with warm, customer-first service in the heart of Chennai's Sowcarpet</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="collection-bg">
+  <div class="container">
+    <p class="sec-label">Collection</p>
+    <h2 style="font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw,2.5rem);color:#8B1A4A;margin-bottom:8px">Our Offerings</h2>
+    <div class="catalog-grid"><div class="cat-card"><h3>Lehenga &amp; Bridal Wear</h3><p>Exquisite lehengas and bridal outfits crafted for your most important moments, available in a wide variety of designs, fabrics, and embellishments.</p></div><div class="cat-card"><h3>Ghagra Cholis</h3><p>A signature specialty of the store — vibrant, beautifully designed ghagra cholis perfect for weddings, festivals, and traditional celebrations.</p></div><div class="cat-card"><h3>Ethnic Wear Collection</h3><p>A broad range of ethnic Indian clothing for women, offering styles that blend tradition with contemporary fashion at affordable prices.</p></div><div class="cat-card"><h3>Custom Stitching &amp; Tailoring</h3><p>In-store stitching and tailoring services to ensure your chosen outfit fits you perfectly for every occasion.</p></div><div class="cat-card"><h3>Festival &amp; Occasion Wear</h3><p>Specially curated collections for Navratri, Diwali, weddings, and other celebrations, with designs that stand out and prices that do not break the bank.</p></div></div>
+  </div>
+</section>
+<div class="parallax-strip">
+  <div class="pstrip-bg" id="ps"></div>
+  <div class="pstrip-overlay"></div>
+  <div class="pstrip-content">
+    <h2>Visit Our Store</h2>
+    <p>old No :, 141, Mint St, near Chandra Prabhu Jain Naya Mandir, adjacent to Amrit Hospital, Sowcarpet, George Town, Chennai, Tamil Nadu 600001, India</p>
+    <a href="https://wa.me/919445126161?text=Hi!%20I%20visited%20the%20Ghoonghat%20website%20and%20I'm%20interested%20in%20your%20ethnic%20wear%20collection.%20Could%20you%20please%20share%20more%20details%20about%20available%20designs%20and%20pricing%3F" style="background:#D4AF37;color:#fff;padding:13px 30px;border-radius:2px;text-decoration:none;font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:.88rem">💬 WhatsApp Enquiry</a>
+  </div>
+</div>
+<section><div class="container"><p class="sec-label">Gallery</p><h2 style="font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw,2.5rem);color:#8B1A4A;margin-bottom:28px">Our Store</h2><div class="gallery-grid"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEE_vHuAOg6Pz_8I0RmFFQh9uMWkaP-Rh2k8AE-yyOJrh16mccQrhMaJlzoESvA5QuRsATnYo0tFojDGrttObRhVq9-C1r9cAcSnyNBW94gnxTP7sRnO62zok5kDJFQCGQTEwFbO4FCCd83A3k7z655N3sDM4OVyXVBDL9nT6YB6t4goHcHKzYh2JMu_xz2TdNPb8GXhJfsG9ml4vVXLs0kFZ-qE-5siZnuYjjXrxGOnIqsF97IaFxnJzlnyw2kVGZFetfqIzEPCCOjd78K3B-P8sl0NCs8kxwW_CPCINV1iuw&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="Ghoonghat" loading="lazy" onerror="this.parentElement.remove()"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEEgWk3tC8d9wTKZ-k-A0nrvz7r1UbTzyhgFQTOlaQ0nPUVlqcrsu2ybAilZXOotkrjQIC25GtmsaAIXSSPwpBKJyxIvsFQArUJhj6OXJ5pfIAULTjda8JyFfL5_6dd9ps6xur1kqepr0SRrZ-mdXoOiWhGDkQCkywRYO4xgVUyD_HIDN-ksyRMC1KRO5eCs47tD2kDNBNB1ovynKOekowM1rQ5Yulw3BbfOYBXVzcFSC51ROb0RQtt_E3dNcubJpnRoGNBFWUqxBPlX79fCFfKbxm7Nvj3kS9YqvW-8uobmMA&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="Ghoonghat" loading="lazy" onerror="this.parentElement.remove()"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEHuLbiZhvUEVtsJZ00zoASc_j9GnC3BdZb9t5hXuL1JJfyE61yc1kxY5jKvXzZXPTNhszmByQoVd5eCp2sNMH0rX-ZsvhfSAZF6RLSAPtrnbp0oW4EOiEiECIL0YT37-z-96haE9GXL9BpyIEIMNLf2VC_6Tpj8BywrMeZpIg7WKq_k1prlCiEtO-qVoNLz9zt_Zwjp84KzM23DJF_P1FNigP_e0nyt-zQ80dVYg0SBecIYhJioFZUGBLg_t3UKdAeU4E-QHaaptwW7R763N3c2P_IP364dVzndEvHTf_J7Gw&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="Ghoonghat" loading="lazy" onerror="this.parentElement.remove()"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEEryywJnBMDSn_yG_OLhTYXkO1q5EU82o41GIiZKyWLSvFUyFi-6p_eUCRwvEPANF5n2CVf0kJBsdGehvQr_HpEfgTxwZOcZOA_YfBjk5kN8u_1cuVyOZMwIi9CX5h1D-D_ofxf1vkT8XPXPmpkkO0eB-mZxGQmGspekoXPQLcN-DmyE9kNX4dfoW-VZDXpPw3ppyxE-pCQIKg964znH-BYiGoPtjacRDw3gLmKLmYB6HcvQF_5nFg_KeyvsMIShfl3Z_bgvElESvqIHHPpRgeU4Zpr1Pmrnk2_6datV26aHA&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="Ghoonghat" loading="lazy" onerror="this.parentElement.remove()"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEH_wGUkwW4vy187pSCyomnYybtqYvb-5vgHiJMHT6xdAZUNkgcsjl1dd-DaNjnHewhhHOnheNaLyYhjR167sbuLcNsY06lG-73vApY0Nx9yq1fGxwjOlTeQITWz5SbZQeVliPRy62R-8uOBBavY6PRzD5JWVtBRRYbxgXmaWqC4awSIj3hTtY0aBYs9lMJtyY8W5dndgnDDRYG_eIQKktf5hYgLAcmfh-xKQvvuSqVjwHTrtG3L8JNqgHcWoqUIjzbnAF4eFDBtRAxGl48YTuPVxjV4eKVSx0gbB3znY7eZlg&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="Ghoonghat" loading="lazy" onerror="this.parentElement.remove()"></div></div></section>
+<section class="reviews-bg">
+  <div class="container">
+    <p class="sec-label" style="color:rgba(255,255,255,.4)">Reviews</p>
+    <h2 style="font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw,2.5rem);color:#fff;margin-bottom:8px">Customer Stories</h2>
+    <div class="rv-grid"><div class="rv-card"><div class="rv-stars">★★★★★</div><p class="rv-text">Ghoonghat is the perfect place to shop for ghagra cholis! Their collection is beautiful, and the prices are very reasonable.</p><div class="rv-author">— Kalyani Sai</div></div><div class="rv-card"><div class="rv-stars">★★★★★</div><p class="rv-text">They have a wide range of collections and good designs with great quality. They are customer friendly and the products are budget friendly compared to other shops nearby.</p><div class="rv-author">— Bhagathsingh R</div></div><div class="rv-card"><div class="rv-stars">★★★★★</div><p class="rv-text">Received very sweet and warm service! Has a wide range of collections at an affordable price and good quality!</p><div class="rv-author">— Charulatha</div></div></div>
+  </div>
+</section>
+<div class="cta-section">
+  <p class="sec-label" style="color:rgba(255,255,255,.5)">Come See Us</p>
+  <h2>Experience the Difference</h2>
+  <p style="opacity:.75;max-width:480px;margin:0 auto;font-size:.95rem">old No :, 141, Mint St, near Chandra Prabhu Jain Naya Mandir, adjacent to Amrit Hospital, Sowcarpet, George Town, Chennai, Tamil Nadu 600001, India · Monday: 10:30 AM – 9:00 PM | Tuesday: 10:30 AM – 9:00 PM | Wednesday: 10:30 AM – 9:00 PM | Thursday: 10:30 AM – 9:00 PM | Friday: 10:30 AM – 9:00 PM | Saturday: 10:30 AM – 9:00 PM | Sunday: 10:30 AM – 5:00 PM</p>
+  <div class="cta-btns">
+    <a href="https://wa.me/919445126161?text=Hi!%20I%20visited%20the%20Ghoonghat%20website%20and%20I'm%20interested%20in%20your%20ethnic%20wear%20collection.%20Could%20you%20please%20share%20more%20details%20about%20available%20designs%20and%20pricing%3F" class="btn-gold">💬 WhatsApp Us</a>
+    <a href="tel:094451 26161" class="btn-ghost">📞 094451 26161</a>
+    <a href="https://maps.google.com/?cid=4223633052800943160" class="btn-ghost">📍 Get Directions</a>
+  </div>
+</div>
+<footer>© 2026 Ghoonghat &nbsp;·&nbsp; All Rights Reserved</footer>
+<a href="https://wa.me/919445126161?text=Hi!%20I%20visited%20the%20Ghoonghat%20website%20and%20I'm%20interested%20in%20your%20ethnic%20wear%20collection.%20Could%20you%20please%20share%20more%20details%20about%20available%20designs%20and%20pricing%3F" class="wa-float" title="Chat on WhatsApp" aria-label="WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+<script>
+if(window.innerWidth>768){
+  const hp=document.getElementById('hp'),ps=document.getElementById('ps');
+  window.addEventListener('scroll',()=>{
+    const y=window.scrollY;
+    if(hp)hp.style.transform='translateY('+y*.28+'px)';
+    if(ps){const r=ps.closest('.parallax-strip').getBoundingClientRect();ps.style.transform='translateY('+(r.top*.18)+'px)'}
+  },{passive:true});
+}
+</script>
+</body></html>
